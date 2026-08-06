@@ -722,6 +722,20 @@ html,body{height:100%;overflow:hidden;font-family:var(--font);font-size:13px;col
   </div>
 </div>
 
+<div class="modal-overlay" id="load-source-dialog">
+  <div class="modal" style="min-width:340px;max-width:440px">
+    <div class="modal-header">
+      <h3>Carica Progetto</h3>
+      <button class="modal-close" onclick="closeDialog('load-source-dialog')">&times;</button>
+    </div>
+    <div class="modal-body" style="padding:16px 18px">
+      <p style="margin:0 0 14px 0;color:#555;font-size:13px">Scegli la sorgente del progetto:</p>
+      <button class="btn" id="load-from-disk" style="width:100%;margin-bottom:8px;padding:10px 14px;text-align:left;font-size:13px">📁 Carica da disco locale</button>
+      <div id="examples-list-container" style="margin-top:4px"></div>
+    </div>
+  </div>
+</div>
+
 <!-- Hidden file inputs -->
 <input type="file" id="file-bg" accept="image/*" style="display:none">
 <input type="file" id="file-load" accept=".tableapp,.json" style="display:none">
@@ -4204,6 +4218,57 @@ function showPrompt(text, defaultValue, title) {
   });
 }
 
+function openLoadDialog() {
+  var container = document.getElementById('examples-list-container');
+  container.innerHTML = '<p style="color:#999;font-size:12px;margin:4px 0">Ricerca esempi...</p>';
+  // Determine base URL for examples
+  var basePath = window.location.href.substring(0, window.location.href.lastIndexOf('/') + 1);
+  var manifestUrl = basePath + 'Examples/index.json';
+  fetch(manifestUrl).then(function(resp) {
+    if (!resp.ok) throw new Error('No examples');
+    return resp.json();
+  }).then(function(manifest) {
+    var examples = manifest.examples || [];
+    if (examples.length === 0) throw new Error('Empty');
+    container.innerHTML = '';
+    var title = document.createElement('p');
+    title.style.cssText = 'margin:8px 0 6px 0;color:#555;font-size:13px;font-weight:bold';
+    title.textContent = '📋 Oppure carica un esempio:';
+    container.appendChild(title);
+    examples.forEach(function(ex) {
+      var btn = document.createElement('button');
+      btn.className = 'btn';
+      btn.style.cssText = 'width:100%;margin-bottom:6px;padding:8px 14px;text-align:left;font-size:13px;background:#f0f4ff;border:1px solid #c0d0e8;color:#333';
+      btn.textContent = '📄 ' + (ex.name || ex.file);
+      if (ex.description) {
+        var desc = document.createElement('span');
+        desc.style.cssText = 'display:block;font-size:11px;color:#777;margin-top:2px';
+        desc.textContent = ex.description;
+        btn.appendChild(desc);
+      }
+      btn.addEventListener('click', function() {
+        closeDialog('load-source-dialog');
+        var exUrl = basePath + 'Examples/' + ex.file;
+        fetch(exUrl).then(function(r) {
+          if (!r.ok) throw new Error('Fetch failed');
+          return r.text();
+        }).then(function(jsonStr) {
+          loadProject(jsonStr);
+          showMessage('Esempio "' + (ex.name || ex.file) + '" caricato con successo.', 'Carica Esempio');
+        }).catch(function() {
+          showMessage('Impossibile caricare l\'esempio "' + (ex.name || ex.file) + '".', 'Errore');
+        });
+      });
+      container.appendChild(btn);
+    });
+    document.getElementById('load-source-dialog').classList.add('show');
+  }).catch(function() {
+    // No examples available — open file picker directly
+    container.innerHTML = '';
+    document.getElementById('file-load').click();
+  });
+}
+
 async function changeChairNumber(chairObj) {
   if (!chairObj || !chairObj._chairData) return;
   const current = chairObj._chairData.globalNumber;
@@ -4306,7 +4371,7 @@ function init() {
   // Toolbar
   document.getElementById('btn-new').addEventListener('click', () => { setTimeout(newProject, 0); });
   document.getElementById('btn-save').addEventListener('click', () => { setTimeout(saveProject, 0); });
-  document.getElementById('btn-load').addEventListener('click', () => { setTimeout(() => document.getElementById('file-load').click(), 0); });
+  document.getElementById('btn-load').addEventListener('click', () => { setTimeout(openLoadDialog, 0); });
   document.getElementById('btn-undo').addEventListener('click', undo);
   document.getElementById('btn-redo').addEventListener('click', redo);
   document.getElementById('btn-bg').addEventListener('click', () => document.getElementById('file-bg').click());
@@ -4389,6 +4454,10 @@ function init() {
   document.getElementById('file-bg').addEventListener('change', function(e) {
     const f=e.target.files[0]; if(!f) return;
     const r=new FileReader(); r.onload=ev=>loadBackgroundImage(ev.target.result); r.readAsDataURL(f); this.value='';
+  });
+  document.getElementById('load-from-disk').addEventListener('click', function() {
+    closeDialog('load-source-dialog');
+    setTimeout(function() { document.getElementById('file-load').click(); }, 50);
   });
   document.getElementById('file-load').addEventListener('change', function(e) {
     const f=e.target.files[0]; if(!f) return;
