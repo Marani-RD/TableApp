@@ -3172,11 +3172,6 @@ function initTouchDragFromSidebar() {
         }
         // Horizontal or diagonal enough → start drag
         touchDragStarted = true;
-        // Close sidebar on mobile to give more room for positioning
-        if (window.innerWidth <= 768 && !document.getElementById('app').classList.contains('sidebar-collapsed')) {
-          document.getElementById('app').classList.add('sidebar-collapsed');
-          requestAnimationFrame(function() { handleResize(); });
-        }
         ghostEl = touchDragItem.cloneNode(true);
         ghostEl.className = 'touch-drag-ghost';
         ghostEl.style.width = touchDragItem.offsetWidth + 'px';
@@ -3187,6 +3182,14 @@ function initTouchDragFromSidebar() {
         e.preventDefault();
         ghostEl.style.left = t.clientX + 'px';
         ghostEl.style.top = t.clientY + 'px';
+        // Close sidebar as soon as ghost hovers over canvas area
+        if (window.innerWidth <= 768) {
+          var appC = document.getElementById('app');
+          if (!appC.classList.contains('sidebar-collapsed')) {
+            appC.classList.add('sidebar-collapsed');
+            handleResize();
+          }
+        }
       }
     }, { passive: false });
 
