@@ -3109,10 +3109,12 @@ function initTouch() {
   // --- Mobile panel toggle ---
   var panelToggle = document.getElementById('mobile-panel-toggle');
   var appEl = document.getElementById('app');
-  // Start with panel hidden on mobile
+  // Start with panel hidden on mobile + initial zoom 80%
   if (window.innerWidth <= 768) {
     appEl.classList.add('panel-hidden');
     appEl.classList.add('sidebar-collapsed');
+    canvas.setZoom(0.8);
+    updateStatusBar();
   }
   panelToggle.addEventListener('click', function() {
     appEl.classList.toggle('panel-hidden');
@@ -3170,6 +3172,11 @@ function initTouchDragFromSidebar() {
         }
         // Horizontal or diagonal enough → start drag
         touchDragStarted = true;
+        // Close sidebar on mobile to give more room for positioning
+        if (window.innerWidth <= 768 && !document.getElementById('app').classList.contains('sidebar-collapsed')) {
+          document.getElementById('app').classList.add('sidebar-collapsed');
+          requestAnimationFrame(function() { handleResize(); });
+        }
         ghostEl = touchDragItem.cloneNode(true);
         ghostEl.className = 'touch-drag-ghost';
         ghostEl.style.width = touchDragItem.offsetWidth + 'px';
