@@ -144,7 +144,11 @@ html,body{height:100%;overflow:hidden;font-family:var(--font);font-size:13px;col
 @media (max-width: 768px) {
   :root{--toolbar-h:48px;--sidebar-w:180px;--panel-w:0px;--statusbar-h:24px}
   #app{grid-template-columns:0px 1fr 0px 0px;grid-template-areas:"toolbar toolbar toolbar toolbar" "sidebar canvas splitbar panel" "status status status status"}
-  #app:not(.sidebar-collapsed) #sidebar{position:fixed;top:var(--toolbar-h);left:0;bottom:var(--statusbar-h);width:220px;z-index:120;box-shadow:4px 0 16px rgba(0,0,0,0.2);padding:8px}
+  #app:not(.sidebar-collapsed) #sidebar{position:fixed;top:var(--toolbar-h);left:0;bottom:var(--statusbar-h);width:140px;z-index:120;box-shadow:4px 0 16px rgba(0,0,0,0.2);padding:6px}
+  .sb-item{gap:4px;padding:4px 5px}
+  .sb-item .icon{width:28px;height:22px}
+  .sb-item .icon svg{width:26px;height:18px}
+  .sb-item .label{font-size:10px;white-space:nowrap}
   #app.sidebar-collapsed #sidebar{display:none}
   #toolbar{overflow-x:auto;overflow-y:hidden;-webkit-overflow-scrolling:touch;gap:2px;padding:0 4px}
   .tb-btn svg{width:20px;height:20px}
