@@ -1084,12 +1084,12 @@
       "ftype": "plant",
       "name": "TAPPETO",
       "diameter": 30,
-      "scaleX": 1,
-      "scaleY": 1,
+      "scaleX": 5.940828074775259,
+      "scaleY": 0.5864642080507442,
       "locked": false,
-      "left": 419.5135127053708,
-      "top": 177.26966517625286,
-      "angle": 0
+      "left": 420.32733265829063,
+      "top": 206.5982120595771,
+      "angle": 90
     },
     {
       "id": "fnt_1",
