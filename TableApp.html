@@ -721,7 +721,8 @@ html,body{height:100%;overflow:hidden;font-family:var(--font);font-size:13px;col
     </div>
     <div class="modal-body" style="padding:24px 18px;text-align:center">
       <div style="font-size:28px;font-weight:bold;color:var(--accent);margin-bottom:6px">TableApp</div>
-      <div style="font-size:14px;color:#555;margin-bottom:16px" id="about-version"></div>
+      <div style="font-size:14px;color:#555;margin-bottom:4px" id="about-version"></div>
+      <div style="font-size:11px;color:#999;margin-bottom:16px" id="about-lastmod"></div>
       <div style="font-size:12px;color:#777;margin-bottom:12px">&copy;2026 by Paolo Marani</div>
       <div style="font-size:12px;color:#555">Per supporto email: <a href="mailto:marani@ruledesigner.com?subject=Informazione%20su%20TableApp&body=Inserisci%20i%20tuoi%20commenti" style="color:var(--accent);text-decoration:underline">marani@ruledesigner.com</a></div>
       <div style="text-align:center;margin-top:18px"><button class="btn" onclick="closeDialog('about-dialog')" style="min-width:80px">OK</button></div>
@@ -754,6 +755,7 @@ html,body{height:100%;overflow:hidden;font-family:var(--font);font-size:13px;col
    ============================================================ */
 const APP_VERSION = 3;
 const APP_DISPLAY_VERSION = '1.02 beta';
+const APP_LAST_MODIFIED = '6 Agosto 2026';
 let nextTableId = 1, nextChairGlobalId = 1, personIdCounter = 0;
 let nextColumnId = 1, nextBuffetId = 1, nextDjId = 1, nextPlantId = 1, nextSpeakerId = 1, nextLightId = 1, nextWallId = 1, nextFountainId = 1, nextSignId = 1, nextArchId = 1, nextMusicianId = 1;
 
@@ -4403,6 +4405,7 @@ function init() {
   document.getElementById('btn-options').addEventListener('click', showOptionsDialog);
   document.getElementById('btn-info').addEventListener('click', () => {
     document.getElementById('about-version').textContent = 'Version ' + APP_DISPLAY_VERSION;
+    document.getElementById('about-lastmod').textContent = 'Ultima modifica: ' + APP_LAST_MODIFIED;
     document.getElementById('about-dialog').classList.add('show');
   });
   // Populate statusbar version label
