@@ -1,0 +1,1412 @@
+{
+  "version": 3,
+  "title": "Tavoli Villa Naldi",
+  "options": {
+    "fontSize": 10,
+    "seatWidthCm": 60,
+    "scale": 1.5,
+    "tableColor": "#c0a882",
+    "chairColor": "#d4c5a9"
+  },
+  "displayMode": "both",
+  "backgroundImage": null,
+  "bgData": null,
+  "persons": [
+    {
+      "id": 53,
+      "name": "Paolo",
+      "surname": "Marani",
+      "category": "SPOSO",
+      "friendGroup": "",
+      "relativeGroup": "",
+      "interestGroup": "",
+      "notes": "",
+      "chairId": "chair_164"
+    },
+    {
+      "id": 54,
+      "name": "Michela",
+      "surname": "Fontana",
+      "category": "SPOSA",
+      "friendGroup": "",
+      "relativeGroup": "",
+      "interestGroup": "",
+      "notes": "",
+      "chairId": "chair_154"
+    },
+    {
+      "id": 56,
+      "name": "Marco",
+      "surname": "Bartolini",
+      "category": "TESTIMONE",
+      "friendGroup": "",
+      "relativeGroup": "",
+      "interestGroup": "",
+      "notes": "",
+      "chairId": "chair_163"
+    },
+    {
+      "id": 55,
+      "name": "Mascia",
+      "surname": "Fontana",
+      "category": "TESTIMONE",
+      "friendGroup": "",
+      "relativeGroup": "",
+      "interestGroup": "",
+      "notes": "",
+      "chairId": "chair_155"
+    },
+    {
+      "id": 66,
+      "name": "Giovanna",
+      "surname": "Manzo",
+      "category": "",
+      "friendGroup": "COLLEGHE SPOSA",
+      "relativeGroup": "",
+      "interestGroup": "",
+      "notes": "",
+      "chairId": "chair_166"
+    },
+    {
+      "id": 65,
+      "name": "Lorenza",
+      "surname": "Severi",
+      "category": "",
+      "friendGroup": "COLLEGHE SPOSA",
+      "relativeGroup": "",
+      "interestGroup": "",
+      "notes": "",
+      "chairId": "chair_161"
+    },
+    {
+      "id": 103,
+      "name": "Valerio",
+      "surname": "Antolini",
+      "category": "",
+      "friendGroup": "",
+      "relativeGroup": "",
+      "interestGroup": "",
+      "notes": "",
+      "chairId": "chair_156"
+    },
+    {
+      "id": 104,
+      "name": "Nicola",
+      "surname": "Andreucci",
+      "category": "",
+      "friendGroup": "",
+      "relativeGroup": "",
+      "interestGroup": "",
+      "notes": "",
+      "chairId": "chair_157"
+    },
+    {
+      "id": 84,
+      "name": "Paola",
+      "surname": "Marabini",
+      "category": "",
+      "friendGroup": "",
+      "relativeGroup": "",
+      "interestGroup": "",
+      "notes": "",
+      "chairId": "chair_94"
+    },
+    {
+      "id": 68,
+      "name": "Simona",
+      "surname": "Gori",
+      "category": "",
+      "friendGroup": "COLLEGHE SPOSA",
+      "relativeGroup": "",
+      "interestGroup": "",
+      "notes": "",
+      "chairId": "chair_165"
+    },
+    {
+      "id": 107,
+      "name": "Samantha",
+      "surname": "Franceschini",
+      "category": "",
+      "friendGroup": "",
+      "relativeGroup": "",
+      "interestGroup": "",
+      "notes": "",
+      "chairId": "chair_160"
+    },
+    {
+      "id": 102,
+      "name": "Barbara",
+      "surname": "Ponzanetti",
+      "category": "",
+      "friendGroup": "",
+      "relativeGroup": "",
+      "interestGroup": "",
+      "notes": "",
+      "chairId": "chair_49"
+    },
+    {
+      "id": 83,
+      "name": "Anna",
+      "surname": "Dionisi",
+      "category": "",
+      "friendGroup": "",
+      "relativeGroup": "",
+      "interestGroup": "",
+      "notes": "",
+      "chairId": "chair_93"
+    },
+    {
+      "id": 69,
+      "name": "Erica",
+      "surname": "Spadola",
+      "category": "",
+      "friendGroup": "COLLEGHE SPOSA",
+      "relativeGroup": "",
+      "interestGroup": "",
+      "notes": "",
+      "chairId": "chair_162"
+    },
+    {
+      "id": 106,
+      "name": "Simone",
+      "surname": "Stambazzi",
+      "category": "",
+      "friendGroup": "",
+      "relativeGroup": "",
+      "interestGroup": "",
+      "notes": "",
+      "chairId": "chair_159"
+    },
+    {
+      "id": 108,
+      "name": "Paolo",
+      "surname": "Budellacci",
+      "category": "",
+      "friendGroup": "",
+      "relativeGroup": "",
+      "interestGroup": "",
+      "notes": "",
+      "chairId": "chair_167"
+    },
+    {
+      "id": 105,
+      "name": "Silvia",
+      "surname": "Nanni",
+      "category": "",
+      "friendGroup": "",
+      "relativeGroup": "",
+      "interestGroup": "",
+      "notes": "",
+      "chairId": "chair_158"
+    },
+    {
+      "id": 67,
+      "name": "Cinzia",
+      "surname": "Bianchi",
+      "category": "",
+      "friendGroup": "COLLEGHE SPOSA",
+      "relativeGroup": "",
+      "interestGroup": "",
+      "notes": "",
+      "chairId": "chair_50"
+    },
+    {
+      "id": 82,
+      "name": "Fabio",
+      "surname": "Bravi",
+      "category": "",
+      "friendGroup": "",
+      "relativeGroup": "",
+      "interestGroup": "",
+      "notes": "",
+      "chairId": "chair_92"
+    },
+    {
+      "id": 85,
+      "name": "Sandro",
+      "surname": "Righi",
+      "category": "",
+      "friendGroup": "",
+      "relativeGroup": "",
+      "interestGroup": "",
+      "notes": "",
+      "chairId": "chair_95"
+    },
+    {
+      "id": 61,
+      "name": "Franco",
+      "surname": "Cagnazzi",
+      "category": "",
+      "friendGroup": "",
+      "relativeGroup": "",
+      "interestGroup": "RONCARO",
+      "notes": "",
+      "chairId": "chair_55"
+    },
+    {
+      "id": 57,
+      "name": "Giuseppe",
+      "surname": "Bocchiola",
+      "category": "",
+      "friendGroup": "",
+      "relativeGroup": "PARENTE SPOSA",
+      "interestGroup": "RONCARO",
+      "notes": "",
+      "chairId": "chair_51"
+    },
+    {
+      "id": 81,
+      "name": "Barbara",
+      "surname": "Zaccarini",
+      "category": "",
+      "friendGroup": "",
+      "relativeGroup": "",
+      "interestGroup": "",
+      "notes": "",
+      "chairId": "chair_91"
+    },
+    {
+      "id": 86,
+      "name": "Claudio",
+      "surname": "Belardi",
+      "category": "",
+      "friendGroup": "",
+      "relativeGroup": "",
+      "interestGroup": "",
+      "notes": "",
+      "chairId": "chair_96"
+    },
+    {
+      "id": 60,
+      "name": "Maristella",
+      "surname": "Campolonghi",
+      "category": "",
+      "friendGroup": "",
+      "relativeGroup": "",
+      "interestGroup": "RONCARO",
+      "notes": "",
+      "chairId": "chair_54"
+    },
+    {
+      "id": 58,
+      "name": "Emanuele",
+      "surname": "Celle",
+      "category": "",
+      "friendGroup": "",
+      "relativeGroup": "PARENTE SPOSA",
+      "interestGroup": "RONCARO",
+      "notes": "",
+      "chairId": "chair_52"
+    },
+    {
+      "id": 87,
+      "name": "Marina",
+      "surname": "Panzavolta",
+      "category": "",
+      "friendGroup": "",
+      "relativeGroup": "",
+      "interestGroup": "",
+      "notes": "",
+      "chairId": "chair_97"
+    },
+    {
+      "id": 91,
+      "name": "Anna",
+      "surname": "Bobrova",
+      "category": "",
+      "friendGroup": "",
+      "relativeGroup": "",
+      "interestGroup": "",
+      "notes": "",
+      "chairId": "chair_108"
+    },
+    {
+      "id": 59,
+      "name": "Gloria",
+      "surname": "Bocchiola",
+      "category": "",
+      "friendGroup": "",
+      "relativeGroup": "PARENTE SPOSA",
+      "interestGroup": "RONCARO",
+      "notes": "",
+      "chairId": "chair_53"
+    },
+    {
+      "id": 62,
+      "name": "Antonia",
+      "surname": "Campari",
+      "category": "",
+      "friendGroup": "",
+      "relativeGroup": "",
+      "interestGroup": "RONCARO",
+      "notes": "",
+      "chairId": "chair_63"
+    },
+    {
+      "id": 90,
+      "name": "Fabio",
+      "surname": "Lucchesi",
+      "category": "",
+      "friendGroup": "",
+      "relativeGroup": "",
+      "interestGroup": "",
+      "notes": "",
+      "chairId": "chair_107"
+    },
+    {
+      "id": 92,
+      "name": "Manuel",
+      "surname": "Mariani",
+      "category": "",
+      "friendGroup": "",
+      "relativeGroup": "",
+      "interestGroup": "",
+      "notes": "",
+      "chairId": "chair_109"
+    },
+    {
+      "id": 73,
+      "name": "Simone",
+      "surname": "Faedi",
+      "category": "",
+      "friendGroup": "",
+      "relativeGroup": "",
+      "interestGroup": "",
+      "notes": "",
+      "chairId": "chair_69"
+    },
+    {
+      "id": 63,
+      "name": "Marta",
+      "surname": "Accolti",
+      "category": "",
+      "friendGroup": "",
+      "relativeGroup": "",
+      "interestGroup": "RONCARO",
+      "notes": "",
+      "chairId": "chair_64"
+    },
+    {
+      "id": 89,
+      "name": "Catia",
+      "surname": "Tamburini",
+      "category": "",
+      "friendGroup": "",
+      "relativeGroup": "",
+      "interestGroup": "",
+      "notes": "",
+      "chairId": "chair_106"
+    },
+    {
+      "id": 93,
+      "name": "Gianluca",
+      "surname": "Bolognesi",
+      "category": "",
+      "friendGroup": "",
+      "relativeGroup": "",
+      "interestGroup": "",
+      "notes": "",
+      "chairId": "chair_110"
+    },
+    {
+      "id": 72,
+      "name": "Rossana",
+      "surname": "Crociati",
+      "category": "",
+      "friendGroup": "",
+      "relativeGroup": "",
+      "interestGroup": "",
+      "notes": "",
+      "chairId": "chair_68"
+    },
+    {
+      "id": 64,
+      "name": "Carla",
+      "surname": "Monti",
+      "category": "",
+      "friendGroup": "",
+      "relativeGroup": "",
+      "interestGroup": "RONCARO",
+      "notes": "",
+      "chairId": "chair_65"
+    },
+    {
+      "id": 88,
+      "name": "Giuliano",
+      "surname": "Sanna",
+      "category": "",
+      "friendGroup": "",
+      "relativeGroup": "",
+      "interestGroup": "",
+      "notes": "",
+      "chairId": "chair_105"
+    },
+    {
+      "id": 94,
+      "name": "Simone",
+      "surname": "Bersani",
+      "category": "",
+      "friendGroup": "",
+      "relativeGroup": "",
+      "interestGroup": "",
+      "notes": "",
+      "chairId": "chair_111"
+    },
+    {
+      "id": 71,
+      "name": "Alberto",
+      "surname": "Bartolini",
+      "category": "",
+      "friendGroup": "",
+      "relativeGroup": "",
+      "interestGroup": "",
+      "notes": "",
+      "chairId": "chair_67"
+    },
+    {
+      "id": 70,
+      "name": "Katia",
+      "surname": "Grazia",
+      "category": "",
+      "friendGroup": "",
+      "relativeGroup": "",
+      "interestGroup": "",
+      "notes": "",
+      "chairId": "chair_66"
+    },
+    {
+      "id": 98,
+      "name": "Riccardo",
+      "surname": "Racci",
+      "category": "",
+      "friendGroup": "",
+      "relativeGroup": "",
+      "interestGroup": "",
+      "notes": "",
+      "chairId": "chair_122"
+    },
+    {
+      "id": 99,
+      "name": "Roberta",
+      "surname": "Tornani",
+      "category": "",
+      "friendGroup": "",
+      "relativeGroup": "",
+      "interestGroup": "",
+      "notes": "",
+      "chairId": "chair_123"
+    },
+    {
+      "id": 109,
+      "name": "Patrizia",
+      "surname": "Budellacci",
+      "category": "",
+      "friendGroup": "",
+      "relativeGroup": "",
+      "interestGroup": "",
+      "notes": "",
+      "chairId": "chair_175"
+    },
+    {
+      "id": 80,
+      "name": "Luigi",
+      "surname": "Marabini",
+      "category": "",
+      "friendGroup": "",
+      "relativeGroup": "",
+      "interestGroup": "",
+      "notes": "",
+      "chairId": "chair_168"
+    },
+    {
+      "id": 97,
+      "name": "Roberto",
+      "surname": "Esposito",
+      "category": "",
+      "friendGroup": "",
+      "relativeGroup": "",
+      "interestGroup": "",
+      "notes": "",
+      "chairId": "chair_121"
+    },
+    {
+      "id": 100,
+      "name": "Nicolas",
+      "surname": "Manuzzi",
+      "category": "",
+      "friendGroup": "",
+      "relativeGroup": "",
+      "interestGroup": "",
+      "notes": "",
+      "chairId": "chair_124"
+    },
+    {
+      "id": 77,
+      "name": "Aurora",
+      "surname": "Dall’ara",
+      "category": "",
+      "friendGroup": "",
+      "relativeGroup": "",
+      "interestGroup": "",
+      "notes": "",
+      "chairId": "chair_174"
+    },
+    {
+      "id": 74,
+      "name": "Patrizia",
+      "surname": "Faedi",
+      "category": "",
+      "friendGroup": "",
+      "relativeGroup": "",
+      "interestGroup": "",
+      "notes": "",
+      "chairId": "chair_169"
+    },
+    {
+      "id": 96,
+      "name": "Gianfranco",
+      "surname": "Giulietta",
+      "category": "",
+      "friendGroup": "",
+      "relativeGroup": "",
+      "interestGroup": "",
+      "notes": "",
+      "chairId": "chair_120"
+    },
+    {
+      "id": 101,
+      "name": "Stefano",
+      "surname": "Oronti",
+      "category": "",
+      "friendGroup": "",
+      "relativeGroup": "",
+      "interestGroup": "",
+      "notes": "",
+      "chairId": "chair_125"
+    },
+    {
+      "id": 76,
+      "name": "Chiara",
+      "surname": "Dall’ara",
+      "category": "",
+      "friendGroup": "",
+      "relativeGroup": "",
+      "interestGroup": "",
+      "notes": "",
+      "chairId": "chair_173"
+    },
+    {
+      "id": 78,
+      "name": "Giuseppina",
+      "surname": "Piccinini",
+      "category": "",
+      "friendGroup": "",
+      "relativeGroup": "",
+      "interestGroup": "",
+      "notes": "",
+      "chairId": "chair_170"
+    },
+    {
+      "id": 95,
+      "name": "Loredana",
+      "surname": "Baldacci",
+      "category": "",
+      "friendGroup": "",
+      "relativeGroup": "",
+      "interestGroup": "",
+      "notes": "",
+      "chairId": "chair_119"
+    },
+    {
+      "id": 79,
+      "name": "Stefano",
+      "surname": "Maldini",
+      "category": "",
+      "friendGroup": "",
+      "relativeGroup": "",
+      "interestGroup": "",
+      "notes": "",
+      "chairId": "chair_172"
+    },
+    {
+      "id": 75,
+      "name": "Lorenzo",
+      "surname": "Faedi",
+      "category": "",
+      "friendGroup": "",
+      "relativeGroup": "",
+      "interestGroup": "",
+      "notes": "",
+      "chairId": "chair_171"
+    }
+  ],
+  "tables": [
+    {
+      "id": "table_1",
+      "type": "arc",
+      "seats": 9,
+      "shortSideMode": "none",
+      "staggerMode": "aligned",
+      "name": "T1",
+      "chairIds": [
+        "chair_161",
+        "chair_162",
+        "chair_163",
+        "chair_164",
+        "chair_165",
+        "chair_166",
+        "chair_167"
+      ],
+      "locked": true,
+      "suppressedAnchors": [],
+      "sectors": 12,
+      "outerR": 515.662015617741,
+      "innerR": 425.66201561774096,
+      "arcAngle": 0.5235987755982988,
+      "dy": 463.4099748865889,
+      "left": 470.94299681137613,
+      "top": 285.2761261713239,
+      "angle": -14.999999999999995
+    },
+    {
+      "id": "table_2",
+      "type": "arc",
+      "seats": 9,
+      "shortSideMode": "none",
+      "staggerMode": "aligned",
+      "name": "T2",
+      "chairIds": [
+        "chair_154",
+        "chair_155",
+        "chair_156",
+        "chair_157",
+        "chair_158",
+        "chair_159",
+        "chair_160"
+      ],
+      "locked": true,
+      "suppressedAnchors": [],
+      "sectors": 12,
+      "outerR": 515.662015617741,
+      "innerR": 425.66201561774096,
+      "arcAngle": 0.5235987755982988,
+      "dy": 463.4099748865889,
+      "left": 712.1353852747516,
+      "top": 285.3711340041236,
+      "angle": 14.999999999999998
+    },
+    {
+      "id": "table_3",
+      "type": "arc",
+      "seats": 9,
+      "shortSideMode": "none",
+      "staggerMode": "aligned",
+      "name": "T3",
+      "chairIds": [
+        "chair_49",
+        "chair_50",
+        "chair_51",
+        "chair_52",
+        "chair_53",
+        "chair_54",
+        "chair_55"
+      ],
+      "locked": false,
+      "suppressedAnchors": [],
+      "sectors": 12,
+      "outerR": 515.662015617741,
+      "innerR": 425.66201561774096,
+      "arcAngle": 0.5235987755982988,
+      "dy": 463.4099748865889,
+      "left": 920.6401785161944,
+      "top": 406.5014202190316,
+      "angle": 45
+    },
+    {
+      "id": "table_4",
+      "type": "arc",
+      "seats": 9,
+      "shortSideMode": "none",
+      "staggerMode": "aligned",
+      "name": "T4",
+      "chairIds": [
+        "chair_63",
+        "chair_64",
+        "chair_65",
+        "chair_66",
+        "chair_67",
+        "chair_68",
+        "chair_69"
+      ],
+      "locked": false,
+      "suppressedAnchors": [],
+      "sectors": 12,
+      "outerR": 515.662015617741,
+      "innerR": 425.66201561774096,
+      "arcAngle": 0.5235987755982988,
+      "dy": 463.4099748865889,
+      "left": 1040.4519432686043,
+      "top": 615.9983496153812,
+      "angle": 75
+    },
+    {
+      "id": "table_6",
+      "type": "arc",
+      "seats": 9,
+      "shortSideMode": "right",
+      "staggerMode": "aligned",
+      "name": "T6",
+      "chairIds": [
+        "chair_168",
+        "chair_169",
+        "chair_170",
+        "chair_171",
+        "chair_172",
+        "chair_173",
+        "chair_174",
+        "chair_175"
+      ],
+      "locked": false,
+      "suppressedAnchors": [],
+      "sectors": 12,
+      "outerR": 515.662015617741,
+      "innerR": 425.66201561774096,
+      "arcAngle": 0.5235987755982988,
+      "dy": 463.4099748865889,
+      "left": 1039.0691189358777,
+      "top": 856.1135632575773,
+      "angle": 105
+    },
+    {
+      "id": "table_7",
+      "type": "arc",
+      "seats": 9,
+      "shortSideMode": "none",
+      "staggerMode": "aligned",
+      "name": "T7",
+      "chairIds": [
+        "chair_91",
+        "chair_92",
+        "chair_93",
+        "chair_94",
+        "chair_95",
+        "chair_96",
+        "chair_97"
+      ],
+      "locked": false,
+      "suppressedAnchors": [],
+      "sectors": 12,
+      "outerR": 515.662015617741,
+      "innerR": 425.66201561774096,
+      "arcAngle": 0.5235987755982988,
+      "dy": 463.4099748865889,
+      "left": 261.8738704818499,
+      "top": 406.55784247314205,
+      "angle": -45.000000000000014
+    },
+    {
+      "id": "table_8",
+      "type": "arc",
+      "seats": 9,
+      "shortSideMode": "none",
+      "staggerMode": "aligned",
+      "name": "T8",
+      "chairIds": [
+        "chair_105",
+        "chair_106",
+        "chair_107",
+        "chair_108",
+        "chair_109",
+        "chair_110",
+        "chair_111"
+      ],
+      "locked": false,
+      "suppressedAnchors": [],
+      "sectors": 12,
+      "outerR": 515.662015617741,
+      "innerR": 425.66201561774096,
+      "arcAngle": 0.5235987755982988,
+      "dy": 463.4099748865889,
+      "left": 143.07674385237146,
+      "top": 616.1920885376269,
+      "angle": -75.00000000000003
+    },
+    {
+      "id": "table_9",
+      "type": "arc",
+      "seats": 9,
+      "shortSideMode": "none",
+      "staggerMode": "aligned",
+      "name": "T9",
+      "chairIds": [
+        "chair_119",
+        "chair_120",
+        "chair_121",
+        "chair_122",
+        "chair_123",
+        "chair_124",
+        "chair_125"
+      ],
+      "locked": false,
+      "suppressedAnchors": [],
+      "sectors": 12,
+      "outerR": 515.662015617741,
+      "innerR": 425.66201561774096,
+      "arcAngle": 0.5235987755982988,
+      "dy": 463.4099748865889,
+      "left": 144.84612893659516,
+      "top": 857.0602639967555,
+      "angle": -105
+    }
+  ],
+  "chairs": [
+    {
+      "id": "chair_161",
+      "tableId": "table_1",
+      "anchorIndex": 0,
+      "personId": 65,
+      "globalNumber": 7
+    },
+    {
+      "id": "chair_162",
+      "tableId": "table_1",
+      "anchorIndex": 1,
+      "personId": 69,
+      "globalNumber": 5
+    },
+    {
+      "id": "chair_163",
+      "tableId": "table_1",
+      "anchorIndex": 2,
+      "personId": 56,
+      "globalNumber": 3
+    },
+    {
+      "id": "chair_164",
+      "tableId": "table_1",
+      "anchorIndex": 3,
+      "personId": 53,
+      "globalNumber": 1
+    },
+    {
+      "id": "chair_165",
+      "tableId": "table_1",
+      "anchorIndex": 4,
+      "personId": 68,
+      "globalNumber": 13
+    },
+    {
+      "id": "chair_166",
+      "tableId": "table_1",
+      "anchorIndex": 5,
+      "personId": 66,
+      "globalNumber": 12
+    },
+    {
+      "id": "chair_167",
+      "tableId": "table_1",
+      "anchorIndex": 6,
+      "personId": 108,
+      "globalNumber": 17
+    },
+    {
+      "id": "chair_154",
+      "tableId": "table_2",
+      "anchorIndex": 0,
+      "personId": 54,
+      "globalNumber": 1
+    },
+    {
+      "id": "chair_155",
+      "tableId": "table_2",
+      "anchorIndex": 1,
+      "personId": 55,
+      "globalNumber": 3
+    },
+    {
+      "id": "chair_156",
+      "tableId": "table_2",
+      "anchorIndex": 2,
+      "personId": 103,
+      "globalNumber": 6
+    },
+    {
+      "id": "chair_157",
+      "tableId": "table_2",
+      "anchorIndex": 3,
+      "personId": 104,
+      "globalNumber": 8
+    },
+    {
+      "id": "chair_158",
+      "tableId": "table_2",
+      "anchorIndex": 4,
+      "personId": 105,
+      "globalNumber": 18
+    },
+    {
+      "id": "chair_159",
+      "tableId": "table_2",
+      "anchorIndex": 5,
+      "personId": 106,
+      "globalNumber": 15
+    },
+    {
+      "id": "chair_160",
+      "tableId": "table_2",
+      "anchorIndex": 6,
+      "personId": 107,
+      "globalNumber": 14
+    },
+    {
+      "id": "chair_49",
+      "tableId": "table_3",
+      "anchorIndex": 0,
+      "personId": 102,
+      "globalNumber": 4
+    },
+    {
+      "id": "chair_50",
+      "tableId": "table_3",
+      "anchorIndex": 1,
+      "personId": 67,
+      "globalNumber": 10
+    },
+    {
+      "id": "chair_51",
+      "tableId": "table_3",
+      "anchorIndex": 2,
+      "personId": 57,
+      "globalNumber": 20
+    },
+    {
+      "id": "chair_52",
+      "tableId": "table_3",
+      "anchorIndex": 3,
+      "personId": 58,
+      "globalNumber": 24
+    },
+    {
+      "id": "chair_53",
+      "tableId": "table_3",
+      "anchorIndex": 4,
+      "personId": 59,
+      "globalNumber": 27
+    },
+    {
+      "id": "chair_54",
+      "tableId": "table_3",
+      "anchorIndex": 5,
+      "personId": 60,
+      "globalNumber": 23
+    },
+    {
+      "id": "chair_55",
+      "tableId": "table_3",
+      "anchorIndex": 6,
+      "personId": 61,
+      "globalNumber": 19
+    },
+    {
+      "id": "chair_63",
+      "tableId": "table_4",
+      "anchorIndex": 0,
+      "personId": 62,
+      "globalNumber": 28
+    },
+    {
+      "id": "chair_64",
+      "tableId": "table_4",
+      "anchorIndex": 1,
+      "personId": 63,
+      "globalNumber": 32
+    },
+    {
+      "id": "chair_65",
+      "tableId": "table_4",
+      "anchorIndex": 2,
+      "personId": 64,
+      "globalNumber": 36
+    },
+    {
+      "id": "chair_66",
+      "tableId": "table_4",
+      "anchorIndex": 3,
+      "personId": 70,
+      "globalNumber": 40
+    },
+    {
+      "id": "chair_67",
+      "tableId": "table_4",
+      "anchorIndex": 4,
+      "personId": 71,
+      "globalNumber": 39
+    },
+    {
+      "id": "chair_68",
+      "tableId": "table_4",
+      "anchorIndex": 5,
+      "personId": 72,
+      "globalNumber": 35
+    },
+    {
+      "id": "chair_69",
+      "tableId": "table_4",
+      "anchorIndex": 6,
+      "personId": 73,
+      "globalNumber": 31
+    },
+    {
+      "id": "chair_168",
+      "tableId": "table_6",
+      "anchorIndex": 0,
+      "personId": 80,
+      "globalNumber": 44
+    },
+    {
+      "id": "chair_169",
+      "tableId": "table_6",
+      "anchorIndex": 1,
+      "personId": 74,
+      "globalNumber": 48
+    },
+    {
+      "id": "chair_170",
+      "tableId": "table_6",
+      "anchorIndex": 2,
+      "personId": 78,
+      "globalNumber": 52
+    },
+    {
+      "id": "chair_171",
+      "tableId": "table_6",
+      "anchorIndex": 3,
+      "personId": 75,
+      "globalNumber": 55
+    },
+    {
+      "id": "chair_172",
+      "tableId": "table_6",
+      "anchorIndex": 4,
+      "personId": 79,
+      "globalNumber": 54
+    },
+    {
+      "id": "chair_173",
+      "tableId": "table_6",
+      "anchorIndex": 5,
+      "personId": 76,
+      "globalNumber": 51
+    },
+    {
+      "id": "chair_174",
+      "tableId": "table_6",
+      "anchorIndex": 6,
+      "personId": 77,
+      "globalNumber": 47
+    },
+    {
+      "id": "chair_175",
+      "tableId": "table_6",
+      "anchorIndex": 7,
+      "personId": 109,
+      "globalNumber": 43
+    },
+    {
+      "id": "chair_91",
+      "tableId": "table_7",
+      "anchorIndex": 0,
+      "personId": 81,
+      "globalNumber": 21
+    },
+    {
+      "id": "chair_92",
+      "tableId": "table_7",
+      "anchorIndex": 1,
+      "personId": 82,
+      "globalNumber": 11
+    },
+    {
+      "id": "chair_93",
+      "tableId": "table_7",
+      "anchorIndex": 2,
+      "personId": 83,
+      "globalNumber": 9
+    },
+    {
+      "id": "chair_94",
+      "tableId": "table_7",
+      "anchorIndex": 3,
+      "personId": 84,
+      "globalNumber": 2
+    },
+    {
+      "id": "chair_95",
+      "tableId": "table_7",
+      "anchorIndex": 4,
+      "personId": 85,
+      "globalNumber": 16
+    },
+    {
+      "id": "chair_96",
+      "tableId": "table_7",
+      "anchorIndex": 5,
+      "personId": 86,
+      "globalNumber": 22
+    },
+    {
+      "id": "chair_97",
+      "tableId": "table_7",
+      "anchorIndex": 6,
+      "personId": 87,
+      "globalNumber": 26
+    },
+    {
+      "id": "chair_105",
+      "tableId": "table_8",
+      "anchorIndex": 0,
+      "personId": 88,
+      "globalNumber": 37
+    },
+    {
+      "id": "chair_106",
+      "tableId": "table_8",
+      "anchorIndex": 1,
+      "personId": 89,
+      "globalNumber": 33
+    },
+    {
+      "id": "chair_107",
+      "tableId": "table_8",
+      "anchorIndex": 2,
+      "personId": 90,
+      "globalNumber": 29
+    },
+    {
+      "id": "chair_108",
+      "tableId": "table_8",
+      "anchorIndex": 3,
+      "personId": 91,
+      "globalNumber": 25
+    },
+    {
+      "id": "chair_109",
+      "tableId": "table_8",
+      "anchorIndex": 4,
+      "personId": 92,
+      "globalNumber": 30
+    },
+    {
+      "id": "chair_110",
+      "tableId": "table_8",
+      "anchorIndex": 5,
+      "personId": 93,
+      "globalNumber": 34
+    },
+    {
+      "id": "chair_111",
+      "tableId": "table_8",
+      "anchorIndex": 6,
+      "personId": 94,
+      "globalNumber": 38
+    },
+    {
+      "id": "chair_119",
+      "tableId": "table_9",
+      "anchorIndex": 0,
+      "personId": 95,
+      "globalNumber": 53
+    },
+    {
+      "id": "chair_120",
+      "tableId": "table_9",
+      "anchorIndex": 1,
+      "personId": 96,
+      "globalNumber": 49
+    },
+    {
+      "id": "chair_121",
+      "tableId": "table_9",
+      "anchorIndex": 2,
+      "personId": 97,
+      "globalNumber": 45
+    },
+    {
+      "id": "chair_122",
+      "tableId": "table_9",
+      "anchorIndex": 3,
+      "personId": 98,
+      "globalNumber": 41
+    },
+    {
+      "id": "chair_123",
+      "tableId": "table_9",
+      "anchorIndex": 4,
+      "personId": 99,
+      "globalNumber": 42
+    },
+    {
+      "id": "chair_124",
+      "tableId": "table_9",
+      "anchorIndex": 5,
+      "personId": 100,
+      "globalNumber": 46
+    },
+    {
+      "id": "chair_125",
+      "tableId": "table_9",
+      "anchorIndex": 6,
+      "personId": 101,
+      "globalNumber": 50
+    }
+  ],
+  "furniture": [
+    {
+      "id": "dj_1",
+      "ftype": "dj",
+      "name": "DJ1",
+      "diameter": 30,
+      "scaleX": 1.7244253884579042,
+      "scaleY": 1.332243344363974,
+      "locked": false,
+      "left": 585.313282458796,
+      "top": 1147.9114238938357,
+      "angle": 0
+    },
+    {
+      "id": "spk_1",
+      "ftype": "speaker",
+      "name": "SPK1",
+      "diameter": 30,
+      "scaleX": 1,
+      "scaleY": 1,
+      "locked": false,
+      "left": 354.5404061112635,
+      "top": 1161.2157766113075,
+      "angle": 0
+    },
+    {
+      "id": "spk_2",
+      "ftype": "speaker",
+      "name": "SPK2",
+      "diameter": 30,
+      "scaleX": 1,
+      "scaleY": 1,
+      "locked": false,
+      "left": 815.0684819103643,
+      "top": 1156.3123750318434,
+      "angle": 0
+    },
+    {
+      "id": "lux_1",
+      "ftype": "light",
+      "name": "LUX1",
+      "diameter": 30,
+      "scaleX": 1,
+      "scaleY": 1,
+      "locked": false,
+      "left": 591.7330755901866,
+      "top": 1040.702900550582,
+      "angle": 0
+    },
+    {
+      "id": "lux_2",
+      "ftype": "light",
+      "name": "LUX2",
+      "diameter": 30,
+      "scaleX": 1,
+      "scaleY": 1,
+      "locked": false,
+      "left": 70.1857589621992,
+      "top": 303.69224962870044,
+      "angle": 0
+    },
+    {
+      "id": "lux_3",
+      "ftype": "light",
+      "name": "LUX3",
+      "diameter": 30,
+      "scaleX": 1,
+      "scaleY": 1,
+      "locked": false,
+      "left": 1093.5762555430902,
+      "top": 290.5449934693324,
+      "angle": 0
+    },
+    {
+      "id": "fnt_1",
+      "ftype": "fountain",
+      "name": "FONT1",
+      "diameter": 140,
+      "scaleX": 1,
+      "scaleY": 1,
+      "locked": false,
+      "left": 593.5029418900925,
+      "top": 687.6689565008155,
+      "angle": 0
+    },
+    {
+      "id": "mus_1",
+      "ftype": "musician",
+      "name": "MUS1",
+      "diameter": 30,
+      "scaleX": 1,
+      "scaleY": 1,
+      "locked": false,
+      "left": 956.390354532898,
+      "top": 1123.5892868165736,
+      "angle": 0
+    },
+    {
+      "id": "sgn_1",
+      "ftype": "sign",
+      "name": "Cartello numerazione posti",
+      "diameter": 30,
+      "scaleX": 1,
+      "scaleY": 1,
+      "locked": false,
+      "left": 222.1984705963131,
+      "top": 1115.9647909173718,
+      "angle": 0
+    },
+    {
+      "id": "plant_2",
+      "ftype": "plant",
+      "name": "PARETE PRATO E FIORI",
+      "diameter": 30,
+      "scaleX": 12.715643271196866,
+      "scaleY": 2.0408917241044118,
+      "locked": false,
+      "left": 565.8258312807517,
+      "top": -35.98910875537695,
+      "angle": 0
+    },
+    {
+      "id": "wall_2",
+      "ftype": "wall",
+      "name": "VILLA",
+      "diameter": 30,
+      "scaleX": 2.1878246625740454,
+      "scaleY": 2.3802654668677405,
+      "locked": false,
+      "left": 579.3737810589447,
+      "top": 1498.0294994662836,
+      "angle": 0
+    }
+  ],
+  "nextTableId": 10,
+  "nextChairGlobalId": 176,
+  "personIdCounter": 109,
+  "nextColumnId": 2,
+  "nextBuffetId": 2,
+  "nextDjId": 2,
+  "nextPlantId": 3,
+  "nextSpeakerId": 3,
+  "nextLightId": 4,
+  "nextWallId": 3,
+  "nextFountainId": 2,
+  "nextSignId": 2,
+  "nextArchId": 1,
+  "nextSeatingId": 1,
+  "nextMusicianId": 2
+}
